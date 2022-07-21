@@ -8,6 +8,29 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@media screen and (min-width: 800px) {
+ 
+  #p2{
+    position:relative;
+    left:3%;
+  }
+  #p3{
+    position:relative;
+    left:5%;
+  }
+  #p4{
+    position:relative;
+    left:7%;
+  }
+}
+@media screen and (max-width: 800px) {
+ 
+  #row2{
+    position: relative;
+    left:2.5%;
+  }
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -29,7 +52,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .member1231 {
   float:relative;
-   left:50%;
+  left:50%;
+}
+.member1232 {
+  float:relative;
+  left:50%;
 }
 
 /*--------------------------------------------------------------
