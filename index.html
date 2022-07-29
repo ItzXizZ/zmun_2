@@ -24,7 +24,17 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+</script>
+<script> 
+  $(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+  });
+  </script> 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -37,32 +47,9 @@
 </head>
 
 <body>
-
+  <div id="header"></div>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <h1><a href="index.html">BCMUN</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto active" href="https://eu.jotform.com/form/221957349386066">Staffing Application Form</a></li>
-          <li><a class="nav-link scrollto active" href="committees.html">Committees</a></li>
-          <li><a class="nav-link scrollto active" >Schedule (Comming Soon)</a></li>
-          <li><a class="nav-link scrollto active" >Delegate Registration (Comming Soon)</a></li>
-
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -77,7 +64,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="./assets/img/image.png" class="img-fluid animated" alt="" width="450px" height="450px">
+          <img src="./assets/img/image.png" class="img-fluid animated" alt="" width="500px" height="450px">
         </div>
       </div>
     </div>
@@ -87,8 +74,6 @@
 
 
   
-<br><br>
-    <br><br>
     <!-- ======= Team Section ======= -->
     <br><br>
     <section id="team" class="team section-bg">
